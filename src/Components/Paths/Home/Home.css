@@ -1,0 +1,34 @@
+/* {Banner w-full h-auto bg-cover bg-no-repeat bg-left}
+<div className="" style={{
+    backgroundImage: `url("https://www.cervelo.com/media/gene-cms/a/s/asepero-5_home-update.jpg")`,
+    backgroundPosition: 'center center',
+    backgroundRepeat: 'no-repeat',
+    backgroundAttachment: 'fixed',
+    backgroundSize: 'cover',
+    width: 'full',
+    height: '800px'
+
+}}>
+    <div className='lg:flex lg:flex-row text-white p-10 rounded-3xl sm:flex-col-reverse sm:flex '>
+
+        <div className='flex-col self-center sm:pt-1.5 sm:w-11/12 lg:w-1/6'>
+
+            <h1 className='font-bold text-5xl'>Best <span className=' text-blue-600'>Cycling</span>, <span className='text-green-600'>Experience</span></h1>
+
+
+
+            <p className='mt-10 text-2xl font-serif'>Phasellus eget condimentum nibh. Nunc id enim id velit commodo efficitur. Duis auctor, mauris in maximus cursus, purus neque ultricies velitVivamus a turpis nisi. Fusce feugiat feugiat congue in mauris id sollicitudin.</p>
+
+            <Link to='/products'> <button className=" bg-gradient-to-r from-green-400 to-blue-500 transition delay-150 duration-300 ease-in-out bg-white  border border-gray-400 font-semibold hover:bg-green-500 hover:text-white mt-16  px-4 py-2 rounded shadow text-gray-800 w-2/3 text-2xl ">
+                Explore
+            </button>
+            </Link>
+        </div>
+
+
+        {<div>
+            <img src='https://cdn.shopify.com/s/files/1/0366/2325/3549/files/slideshow-v4-img1.png?v=1584607086' alt="bike" />
+        </div>
+
+    </div>
+</div> */
