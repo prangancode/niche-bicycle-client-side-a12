@@ -68,7 +68,7 @@ const BookingDetails = () => {
 
                 </div>
                 <div className='col-span-1 lg:mt-72 sm:mt-10 sm:mx-auto'>
-                    <h2 className='font-black italic text-3xl underline text-white sm:text-center'>Confirm Your Booking</h2>
+                    <h2 className='font-black italic text-3xl underline text-black sm:text-center'>Confirm Your Booking</h2>
                     <form className="booking-form flex flex-col  py-10 space-y-5" onSubmit={handleSubmit(onSubmit)}>
 
                         <input className='outline-none border-2 rounded p-3 font-black text-2xl' defaultValue={user.displayName} {...register("name")} />
