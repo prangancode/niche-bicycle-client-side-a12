@@ -38,15 +38,15 @@ const Home = () => {
             }}>
                 <div className='lg:flex lg:flex-row text-white p-10 rounded-3xl sm:flex-col-reverse sm:flex '>
 
-                    <div className='flex-col self-center sm:pt-1.5 sm:w-11/12 lg:w-1/6'>
+                    <div className='flex-col self-center align-center sm:pt-1.5 sm:w-11/12 lg:w-2/6'>
 
-                        <h1 className='font-bold text-5xl'>Best <span className=' text-blue-600'>Cycling</span>, <span className='text-green-600'>Experience</span></h1>
+                        <h1 className='font-bold text-5xl mt-8'>WHAT GOES UP MUST COME DOWN </h1>
 
 
 
                         <p className='mt-10 text-2xl font-serif'>Phasellus eget condimentum nibh. Nunc id enim id velit commodo efficitur. Duis auctor, mauris in maximus cursus, purus neque ultricies velitVivamus a turpis nisi. Fusce feugiat feugiat congue in mauris id sollicitudin.</p>
 
-                        <Link to='/products'> <button className=" bg-gradient-to-r from-green-400 to-blue-500 transition delay-150 duration-300 ease-in-out bg-white  border border-gray-400 font-semibold hover:bg-green-500 hover:text-white mt-16  px-4 py-2 rounded shadow text-gray-800 w-2/3 text-2xl ">
+                        <Link to='/products'> <button className="bg-black text-white transition delay-150 duration-300 ease-in-out  border border-gray-400 font-semibold hover:bg-white hover:text-black mt-12  px-4 py-2 rounded shadow w-2/3 text-2xl ">
                             Explore
                         </button>
                         </Link>
