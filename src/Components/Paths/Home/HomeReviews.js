@@ -5,7 +5,7 @@ const HomeReviews = (props) => {
     const { name, review, date, rating, designation } = props.review;
     return (
         <div>
-            <figure className="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
+            <figure className="md:flex bg-gray-800 text-white rounded-xl p-8 md:p-0">
 
                 <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
                     <blockquote>
@@ -23,7 +23,7 @@ const HomeReviews = (props) => {
                         <div className="text-gray-500">
                             {date}
                         </div>
-                        <div className="text-yellow-500">
+                        <div className="text-yellow-500 mt-2">
                             <Rating initialRating={rating}
                                 emptySymbol="fa fa-star-o fa-2x"
                                 fullSymbol="fa fa-star fa-2x"

@@ -9,9 +9,9 @@ const AboutUs = () => {
                 </div>
                 <div className='sm:p-10 sm:w-11/12 lg:space-y-10 lg:w-1/3'>
 
-                    <h2 className='font-bold  text-5xl'>Explore Travelling With Us</h2>
+                    <h2 className='font-bold  text-5xl'>Explore Pro-Cycling With Us</h2>
 
-                    <p className='font-normal text-2xl'>We’ve served this richly diverse region as a community hospital for more than 60 years. And as the area has grown, so have we. But as Long Island doctors, nurses, and healthcare professionals, we’ve never outgrown our devotion to the health of the community we all call home.</p>
+                    <p className='font-normal text-2xl'>Whatever type of rider you think you are, our bikes know you even better. They are designed for road riding heroics, pushing the pace on cobbles and tucking for speed in triathlons. If dancing up a climb is your thing then the lightweight Altitude series is for you. Classics specialists and those who love versatility and long-distance riding, will find their way with an Endurance bike. Want to drop the pack or qualify for Kona? Cheating the wind is a given with our Aero-Triathlon series, while purists who love riding the boards will find their match in Track.</p>
                     <ul className='font-bold space-y-2.5 text-2xl'>
 
 

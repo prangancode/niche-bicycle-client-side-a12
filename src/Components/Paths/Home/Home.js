@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBicycle, faLifeRing, faUser, faBullseye } from '@fortawesome/free-solid-svg-icons';
 
 
+
 const Home = () => {
     const [reviews, setReviews] = useState([]);
     const [bookings, setBookings] = useState([]);
@@ -44,7 +45,7 @@ const Home = () => {
 
 
 
-                        <p className='mt-10 text-2xl font-serif'>Phasellus eget condimentum nibh. Nunc id enim id velit commodo efficitur. Duis auctor, mauris in maximus cursus, purus neque ultricies velitVivamus a turpis nisi. Fusce feugiat feugiat congue in mauris id sollicitudin.</p>
+                        <p className='mt-10 text-2xl font-serif'>WE MAKE BIKES, PURE AND SIMPLE. WE ARE HELL-BENT ON CREATING THAT ULTIMATE RIDE EXPERIENCE.</p>
 
                         <Link to='/products'> <button className="bg-black text-white transition delay-150 duration-300 ease-in-out  border border-gray-400 font-semibold hover:bg-white hover:text-black mt-12  px-4 py-2 rounded shadow w-2/3 text-2xl ">
                             Explore
@@ -59,16 +60,16 @@ const Home = () => {
             </div>
 
 
-
+            {/* Introduction */}
 
             <div class="w-full bg-gray-800">
                 <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
                     <div class="text-center pb-12">
-                        <h2 class="text-5xl font-bold text-indigo-600 mb-5">
-                            Welcome To Our HeroBike
+                        <h2 class="text-5xl font-mono text-indigo-600 mb-5">
+                            Welcome To Wheels on Wings
                         </h2>
                         <h1 class="font-base text-xl md:text-xl lg:text-xl font-heading text-white">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptas tenetur eum laudantium reprehenderit blanditiis. Sunt reiciendis iusto iure fugiat molestiae sint numquam enim quos? Assumenda alias placeat harum cumque?
+                            Whatever type of rider you think you are, our bikes know you even better. They are designed for road riding heroics, pushing the pace on cobbles and tucking for speed in triathlons. If dancing up a climb is your thing then the lightweight Altitude series is for you.
                         </h1>
                     </div>
                     <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -121,12 +122,12 @@ const Home = () => {
 
             <div>
 
-                <h1 className='font-bold p-10 text-5xl text-center'>FEATURED  <span className='text-indigo-500'>PRODUCTS</span> </h1>
+                <h1 className='font-mono font-semibold p-10 text-5xl text-center'>FEATURED  <span className='text-red-500 italic'>Cycles</span> </h1>
 
 
             </div>
             <div>
-                <h1 className="mx-auto sm:text-2xl text-3xl text-center w-2/3 font-serif">It is a long established fact that a reader will be distracted by the readable content page when looking at its layout.</h1>
+                <h1 className="mx-auto sm:text-2xl text-3xl text-center w-2/3 font-serif text-indigo-500 mb-5">Classics specialists and those who love versatility and long-distance riding, will find their way with an Endurance bike. Want to drop the pack or qualify for Kona? Cheating the wind is a given with our Aero-Triathlon series, while purists who love riding the boards will find their match in Track.</h1>
             </div>
             <div>
                 {
@@ -136,7 +137,7 @@ const Home = () => {
                             <div className="w-8 h-8 bg-green-400 rounded-full"></div>
                             <div className="w-8 h-8 bg-black rounded-full"></div>
                         </div> :
-                        <div className="gap-8 grid lg:grid-cols-3 lg:p-36  sm:p-10">
+                        <div className="sm:gap-8 lg:gap-12 grid lg:grid-cols-3 lg:p-20 bg-gray-800  sm:p-10">
                             {
                                 bookings.slice(0, 6).map(booking => <HomeBooking booking={booking} key={booking._id}></HomeBooking>)
                             }
@@ -147,14 +148,14 @@ const Home = () => {
             {/* Reviews */}
             <div>
 
-                <h1 className='font-bold p-10 text-5xl text-center'>BEST <span className='text-indigo-500'>REVIEWS</span> </h1>
+                <h1 className='font-bold font-mono p-10 text-5xl text-center italic'>What Our Clients Say</h1>
 
 
             </div>
             <div>
-                <h1 className="mx-auto sm:text-2xl text-3xl text-center w-2/3 font-serif">It is a long established fact that a reader will be distracted by the readable content page when looking at its layout.</h1>
+                <h1 className="mx-auto sm:text-2xl text-3xl text-center w-2/3 font-serif">Whether for road, track, or trail, professional athlete or weekend warrior, it is our mission to produce the best bike in every class.</h1>
             </div>
-            <div className="gap-8 grid lg:grid-cols-4 lg:p-36  sm:p-10">
+            <div className="gap-8 grid lg:grid-cols-4 lg:px-36 lg:py-16  sm:p-10">
                 {
                     reviews.map(review => <HomeReviews review={review}
                         key={review._id}></HomeReviews>)
