@@ -8,7 +8,7 @@ Project Live Site Link :
 
 ## Bullet Points :
 
-Build a full-stack website using React, firebase, react router, node, express, mongodb etc.
+Building a full-stack website using React, firebase, react router, node, express, mongodb etc.
 
 1. It's a Bicycle Related website.  You can get all kind of cycle related information here.  This website is hosted by firebase. The server is deployed in Heroku and for database we used MongoDB
 
